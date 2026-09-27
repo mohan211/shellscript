@@ -1,5 +1,5 @@
 number=20
-if [( $number -gt 10 )];
+if [( $number -gt 10 )]
 then
   echo "The number is greater than 10"
 else
