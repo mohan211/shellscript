@@ -11,7 +11,7 @@ if [ $USER -ne 0 ]; then
     echo "Please run this script as root."
     
 else
-    echo "Running as root. Proceeding with installation of nginx"
-    dnf install xyz -y > /shelllogs/output.log
-    VALIDATE xyz $?
+    echo "Running as root. Proceeding with installation of mysql-server"
+    dnf install mysql-server -y > /shelllogs/output.log
+    VALIDATE mysql-server $?
 fi
