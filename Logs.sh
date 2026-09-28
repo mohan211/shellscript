@@ -13,4 +13,5 @@ if [ $USER -ne 0 ]; then
 else
     echo "Running as root. Proceeding with installation of nginx"
     dnf install xyz -y > /shelllogs/output.log
-    VALIDATE nginx $?
+    VALIDATE xyz $?
+fi
