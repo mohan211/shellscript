@@ -1,4 +1,7 @@
 #!/usr/bash
+R=\e[31m
+G=\e[32m
+Y=\e[33m
 for i in {1..25}
 do
     echo "Welcome $i times"
