@@ -3,5 +3,5 @@ set -e
 #trap 'echo "error at $LINENO, command: $BASH_COMMAND"' ERR
 echo "This is for set demonstration"
 
-ls -lr
+ls -lo
 echo "This is the end"
